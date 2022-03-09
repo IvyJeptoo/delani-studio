@@ -66,8 +66,35 @@
   .grid-heading h2{
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
+  .contactus{
+      background: url("./images/assets/backgrounds/background3.jpg");
+      background-size: cover;
+      height: 60vh;   
+      margin-top: 40px;
+      align-items: centre;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+  }
+  .contactus h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+
+  }
+ .comment{
+     width: 100%;
+     margin-top: 20px;
+ }
+ 
+ 
+
   
  
 
