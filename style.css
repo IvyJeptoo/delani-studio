@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+ /* body{
+    overflow-x: hidden;
+}  */
 
 .welcome-container{
     height: 100vh;
@@ -28,7 +31,7 @@
     justify-content: center;
     text-align: center;
     text-align: center;
-    height: 50vh;   
+    height: 40vh;   
     
 }
 
@@ -40,12 +43,33 @@
 }
 .whatwedo{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
-.whatwedo h2{
+.container-whatwedo h2{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    
+    /* background-color: #2196F3; */
+    /* padding: 30px; */
+  }
+  .grid-heading img {
+      
+    height: 13rem;
+  }
+  .grid-heading h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+ 
 
 
 
