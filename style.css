@@ -129,19 +129,20 @@ margin: 20px;
  }
  .user input{
      width: 450px;
+     color: white;
  }
  .portimage{
      position: relative;
     
  }
  .portimage img{
-    opacity: 1;
+    /* opacity: 1; */
     display: block;  
-    transition: .5s ease;
+    transition: .9s ease;
     backface-visibility: hidden;
  }
  .text{
-    transition: .5s ease;
+    transition: .9s ease;
     opacity: 0;
     position: absolute;
     top: 50%;
@@ -200,6 +201,13 @@ margin: 20px;
 .user input{
     width: 100px;
 }
+#floatingTextarea2{    
+    
+    height: 120px !important;
+}
+.btn{
+    margin-top: 20px;
+}
 .footer-icons img{
     height: 2rem;
 }
@@ -209,6 +217,7 @@ margin: 20px;
  .portimage:hover .text{
     opacity: 1;
  }
+
  
 
 
