@@ -18,3 +18,16 @@ $(document).ready(function(){
     })
 })
 
+$(document).ready(function(){
+    $("form").submit(function(event){
+    let userName = $("input#name").val();    
+    let userMail = $("input#email").val();    
+    let userMessage = $("label#message").val();
+    if(userName && userMail && userMail !="") {
+        alert(`Hi ${userName} we have received your message, Thank you for reaching out to us. We will contact you.`)
+    }
+    event.preventDefault();
+
+})
+})
+
