@@ -157,11 +157,64 @@ margin: 20px;
     opacity: 1;
  }
  .text p{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 16px;
     padding: 16px 32px;
  }
+
+ @media screen and (max-width: 1024px) {
+     html, body{
+         overflow-x: hidden !important;
+     }
+     .welcome{
+        background-position: center;
+        background-size: cover;    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+     }
+     .about{
+        text-align: center;
+        height: 60vh;
+        margin-top: 10px;
+     }
+     .services{
+         height: 60vh;
+     }
+    .whatwedo{
+        flex-direction: column;
+        padding: 30px;
+        margin: 10px;
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.contactus{
+    display: flex;
+}
+.user input{
+    width: 100px;
+}
+.footer-icons img{
+    height: 2rem;
+}
+.portimage img:hover{
+    opacity: 0.3;
+ }
+ .portimage:hover .text{
+    opacity: 1;
+ }
+ 
+
+
+
+     
+  }
 
   
  
