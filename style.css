@@ -23,7 +23,7 @@
     size: 7rem;
 }
 .mouse-click img{
-    /* margin-top:10px; */
+    
     padding-top: 10px;
 }
 .services{
@@ -63,12 +63,10 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 20px;
-    
+    gap: 20px;    
    
   }
-  .grid-heading img {
-      
+  .grid-heading img {      
     height: 13rem;
   }
   .grid-heading h2{
@@ -104,9 +102,7 @@
      
  }
  .footer-icons{
-    display: flex;
-
-     
+    display: flex;     
      justify-content: center;
      margin-top: 20px;
  }
@@ -115,7 +111,6 @@
  }
  .image{
      padding: 4px;
-
  }
  .form-control{
      background: transparent;
@@ -125,8 +120,7 @@ width: 100px;
 margin: 20px;
 
  }
- .myform{
-     
+ .myform{     
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -136,11 +130,10 @@ margin: 20px;
      color: white;
  }
  .portimage{
-     position: relative;
-    
+     position: relative;    
  }
  .portimage img{
-    /* opacity: 1; */
+    opacity: 1;
     display: block;  
     transition: .9s ease;
     backface-visibility: hidden;
@@ -222,11 +215,6 @@ margin: 20px;
  .portimage:hover .text{
     opacity: 1;
  }
-
- 
-
-
-
      
   }
 
